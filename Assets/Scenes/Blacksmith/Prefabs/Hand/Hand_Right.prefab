@@ -843,6 +843,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 072e96c8121f9b1409992e94559589e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _fingerSpeed: 5
+  _xrController: {fileID: 0}
 --- !u!54 &573763192060454923
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -879,7 +881,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 573763192728940802}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.1, y: 0.05, z: 0.15}

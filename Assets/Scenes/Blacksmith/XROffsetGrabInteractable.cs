@@ -12,6 +12,8 @@ public class XROffsetGrabInteractable : XRGrabInteractable
 	{
 		base.OnSelectEnter(interactor);
 
+		return;
+
 		if (!(interactor is XRDirectInteractor))
 		{
 			return;
@@ -26,6 +28,8 @@ public class XROffsetGrabInteractable : XRGrabInteractable
 	protected override void OnSelectExit(XRBaseInteractor interactor)
 	{
 		base.OnSelectExit(interactor);
+
+		return; 
 
 		if (!(interactor is XRDirectInteractor))
 		{
